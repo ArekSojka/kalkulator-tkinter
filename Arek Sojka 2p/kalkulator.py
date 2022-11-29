@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import * #import biblioteki importu
 
 root = Tk()
 root.title("Kalkulator")
