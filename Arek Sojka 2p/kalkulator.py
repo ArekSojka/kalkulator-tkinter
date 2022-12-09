@@ -1,7 +1,7 @@
 from tkinter import * #import biblioteki importu
 
-root = Tk()
-root.title("Kalkulator")
+root = Tk() #wyswietlanie okna
+root.title("Kalkulator") #tytuowanie okna
 
 #funkcje dla przycisków
 def button_click(number):
