@@ -28,7 +28,7 @@ def button_rowna():
 def button_dodawanie():
 	pierwszy_numer = e.get()
 	global p_num #pierwszy numer zmienna globalna
-	global dzialanie
+	global dzialanie #działanie zmienna globalna
 	dzialanie = "dodawanie"
 	p_num = int(pierwszy_numer)
 	e.delete(0, END)
